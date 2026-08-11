@@ -1,7 +1,7 @@
 {
   "name": "nbc-cambodia-exchange-rate",
-  "version": "1.0.3",
-  "description": "Official National Bank of Cambodia (Cambodia) daily exchange rates — ~28 currencies vs KHR, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official National Bank of Cambodia (Cambodia) daily exchange rates — 29 currencies vs KHR, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbc",
     "national",

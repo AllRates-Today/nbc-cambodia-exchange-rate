@@ -1,10 +1,10 @@
 # National Bank of Cambodia Exchange Rate API client
 
-Official **National Bank of Cambodia** (Cambodia) daily exchange rates in Node.js / TypeScript — ~28 currencies against the KHR, with history back to 2016. Zero dependencies, works in Node 18+, Bun, Deno, and edge runtimes (uses global `fetch`).
+Official **National Bank of Cambodia** (Cambodia) daily exchange rates in Node.js / TypeScript — 29 currencies against the KHR, with history back to 2016. Zero dependencies, works in Node 18+, Bun, Deno, and edge runtimes (uses global `fetch`).
 
 These are the *published central bank rates* required for tax filings, customs valuations, audits, and compliant invoicing — not moving market rates. Every response carries the publisher's own publication date.
 
-Powered by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbc/). Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — 300 requests/month, no credit card.
+Powered by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbc/). Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required.
 
 ## Install
 
@@ -41,6 +41,14 @@ const series = await getHistory(
   { apiKey: 'art_live_...' }
 );
 ```
+
+## Currencies covered
+
+National Bank of Cambodia currently publishes rates covering **30 currencies** (as of the latest table):
+
+`AED` · `AUD` · `CAD` · `CHF` · `CNH` · `CNY` · `DKK` · `EUR` · `GBP` · `HKD` · `IDR` · `INR` · `JPY` · `KHR` · `KRW` · `LAK` · `MMK` · `MYR` · `NGN` · `NZD` · `PHP` · `SAR` · `SDR` · `SEK` · `SGD` · `THB` · `TWD` · `USD` · `VND` · `ZAR`
+
+Pairs the central bank does not print directly are resolved from this table (see below).
 
 ## Published vs derived rates
 

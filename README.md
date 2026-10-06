@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'KHR', { apiKey: 'art_live_...' });
 {
   bank: 'nbc',
   name: 'National Bank of Cambodia',
-  rate_date: '2026-09-25',   // National Bank of Cambodia's own publication date
+  rate_date: '2026-10-02',   // National Bank of Cambodia's own publication date
   source: 'USD',
   target: 'KHR',
-  rate: 4057,
+  rate: 4056,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbc',
   name: 'National Bank of Cambodia',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-02',
   rates: [
-    { "base": "USD", "quote": "KHR", "type": "reference", "value": 4057 },
+    { "base": "USD", "quote": "KHR", "type": "reference", "value": 4056 },
     // … the rest of the published table (29 currencies vs KHR)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbc-cambodia-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'KHR', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'KHR', from: '2026-01-01', to: '2026-10-02' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'KHR',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-02',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 4057, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-02', rate: 4056, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'

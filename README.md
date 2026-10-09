@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbc-cambodia-exchange-rate.svg)](https://github.com/AllRates-Today/nbc-cambodia-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbc-cambodia-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/KHR today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbc%3Fsource%3DUSD%26target%3DKHR&query=%24.rate&label=USD%2FKHR%20published%20by%20National%20Bank%20of%20Cambodia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbc/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbc%3Fsource%3DUSD%26target%3DKHR&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbc/)
 
 **Official National Bank of Cambodia (Cambodia) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of Cambodia itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of Cambodia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-07** by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | KHR | buy | 1106 |
+| AED | KHR | middle | 1111.5 |
+| AED | KHR | sell | 1117 |
+| AUD | KHR | buy | 2834 |
+| AUD | KHR | middle | 2848 |
+| AUD | KHR | sell | 2862 |
+| CAD | KHR | buy | 2846 |
+| CAD | KHR | middle | 2860.5 |
+| CAD | KHR | sell | 2875 |
+| CHF | KHR | buy | 4883 |
+| CHF | KHR | middle | 4907.5 |
+| CHF | KHR | sell | 4932 |
+| CNH | KHR | buy | 606 |
+| CNH | KHR | middle | 609 |
+| CNH | KHR | sell | 612 |
+| CNY | KHR | buy | 606 |
+| CNY | KHR | middle | 609 |
+| CNY | KHR | sell | 612 |
+| DKK | KHR | buy | 611 |
+| DKK | KHR | middle | 614 |
+| DKK | KHR | sell | 617 |
+| EUR | KHR | buy | 4564 |
+| EUR | KHR | middle | 4587 |
+| EUR | KHR | sell | 4610 |
+| GBP | KHR | buy | 5376 |
+| GBP | KHR | middle | 5403 |
+| GBP | KHR | sell | 5430 |
+| HKD | KHR | buy | 518 |
+| HKD | KHR | middle | 520.5 |
+| HKD | KHR | sell | 523 |
+| IDR | KHR | buy | 0.227 |
+| IDR | KHR | middle | 0.228 |
+| IDR | KHR | sell | 0.229 |
+| INR | KHR | buy | 42.13 |
+| INR | KHR | middle | 42.34 |
+| INR | KHR | sell | 42.55 |
+| JPY | KHR | buy | 25.68 |
+| JPY | KHR | middle | 25.81 |
+| JPY | KHR | sell | 25.94 |
+| KRW | KHR | buy | 3.03 |
+| KRW | KHR | middle | 3.045 |
+| KRW | KHR | sell | 3.06 |
+| LAK | KHR | buy | 0.182 |
+| LAK | KHR | middle | 0.183 |
+| LAK | KHR | sell | 0.184 |
+| MMK | KHR | buy | 1.93 |
+| MMK | KHR | middle | 1.94 |
+| MMK | KHR | sell | 1.95 |
+| MYR | KHR | buy | 994 |
+| MYR | KHR | middle | 999 |
+| MYR | KHR | sell | 1004 |
+| NGN | KHR | buy | 3.05 |
+| NGN | KHR | middle | 3.065 |
+| NGN | KHR | sell | 3.08 |
+| NZD | KHR | buy | 2276 |
+| NZD | KHR | middle | 2287.5 |
+| NZD | KHR | sell | 2299 |
+| PHP | KHR | buy | 64.72 |
+| PHP | KHR | middle | 65.04 |
+| PHP | KHR | sell | 65.36 |
+
+[Full table on the National Bank of Cambodia rates page](https://allratestoday.com/central-bank-rates-api/nbc/) · Source: [Official rates published by NBC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 

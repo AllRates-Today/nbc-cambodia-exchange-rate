@@ -162,10 +162,10 @@ const pair = await getRate('USD', 'KHR', { apiKey: 'art_live_...' });
 {
   bank: 'nbc',
   name: 'National Bank of Cambodia',
-  rate_date: '2026-10-09',   // National Bank of Cambodia's own publication date
+  rate_date: '2026-10-14',   // National Bank of Cambodia's own publication date
   source: 'USD',
   target: 'KHR',
-  rate: 4069,
+  rate: 4070,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -190,9 +190,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbc',
   name: 'National Bank of Cambodia',
-  rate_date: '2026-10-09',
+  rate_date: '2026-10-14',
   rates: [
-    { "base": "USD", "quote": "KHR", "type": "reference", "value": 4069 },
+    { "base": "USD", "quote": "KHR", "type": "reference", "value": 4070 },
     // … the rest of the published table (29 currencies vs KHR)
   ],
   disclaimer: '…'
@@ -232,7 +232,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbc-cambodia-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'KHR', from: '2026-01-01', to: '2026-10-09' },
+  { source: 'USD', target: 'KHR', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -245,11 +245,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'KHR',
   from: '2026-01-01',
-  to: '2026-10-09',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-09', rate: 4069, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 4070, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -368,9 +368,9 @@ getRate('USD', 'KHR', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/nbc.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/nbc.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/nbc/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nbc/latest.json`
 
 ## 🔗 Links
 

@@ -42,22 +42,22 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-14.
+Published **2026-10-16** by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KHR | buy | 1108 |
-| AED | KHR | middle | 1113.5 |
-| AED | KHR | sell | 1119 |
-| AUD | KHR | buy | 2838 |
-| AUD | KHR | middle | 2852 |
-| AUD | KHR | sell | 2866 |
-| CAD | KHR | buy | 2854 |
-| CAD | KHR | middle | 2868.5 |
-| CAD | KHR | sell | 2883 |
-| CHF | KHR | buy | 4887 |
-| CHF | KHR | middle | 4911 |
-| CHF | KHR | sell | 4935 |
+| AED | KHR | buy | 1107 |
+| AED | KHR | middle | 1112.5 |
+| AED | KHR | sell | 1118 |
+| AUD | KHR | buy | 2851 |
+| AUD | KHR | middle | 2865 |
+| AUD | KHR | sell | 2879 |
+| CAD | KHR | buy | 2862 |
+| CAD | KHR | middle | 2876 |
+| CAD | KHR | sell | 2890 |
+| CHF | KHR | buy | 4883 |
+| CHF | KHR | middle | 4907.5 |
+| CHF | KHR | sell | 4932 |
 | CNH | KHR | buy | 608 |
 | CNH | KHR | middle | 611 |
 | CNH | KHR | sell | 614 |
@@ -65,29 +65,29 @@ Published **2026-10-14** by National Bank of Cambodia — 85 rates, first 60 sho
 | CNY | KHR | middle | 611 |
 | CNY | KHR | sell | 614 |
 | DKK | KHR | buy | 609 |
-| DKK | KHR | middle | 612 |
-| DKK | KHR | sell | 615 |
-| EUR | KHR | buy | 4551 |
-| EUR | KHR | middle | 4574 |
-| EUR | KHR | sell | 4597 |
-| GBP | KHR | buy | 5387 |
-| GBP | KHR | middle | 5414 |
-| GBP | KHR | sell | 5441 |
-| HKD | KHR | buy | 519 |
-| HKD | KHR | middle | 521.5 |
-| HKD | KHR | sell | 524 |
+| DKK | KHR | middle | 612.5 |
+| DKK | KHR | sell | 616 |
+| EUR | KHR | buy | 4555 |
+| EUR | KHR | middle | 4578 |
+| EUR | KHR | sell | 4601 |
+| GBP | KHR | buy | 5393 |
+| GBP | KHR | middle | 5420 |
+| GBP | KHR | sell | 5447 |
+| HKD | KHR | buy | 518 |
+| HKD | KHR | middle | 520.5 |
+| HKD | KHR | sell | 523 |
 | IDR | KHR | buy | 0.227 |
 | IDR | KHR | middle | 0.2285 |
 | IDR | KHR | sell | 0.23 |
-| INR | KHR | buy | 42.71 |
-| INR | KHR | middle | 42.925 |
-| INR | KHR | sell | 43.14 |
-| JPY | KHR | buy | 25.79 |
-| JPY | KHR | middle | 25.915 |
-| JPY | KHR | sell | 26.04 |
-| KRW | KHR | buy | 3.04 |
-| KRW | KHR | middle | 3.055 |
-| KRW | KHR | sell | 3.07 |
+| INR | KHR | buy | 42.77 |
+| INR | KHR | middle | 42.985 |
+| INR | KHR | sell | 43.2 |
+| JPY | KHR | buy | 25.68 |
+| JPY | KHR | middle | 25.81 |
+| JPY | KHR | sell | 25.94 |
+| KRW | KHR | buy | 3.05 |
+| KRW | KHR | middle | 3.065 |
+| KRW | KHR | sell | 3.08 |
 | LAK | KHR | buy | 0.182 |
 | LAK | KHR | middle | 0.183 |
 | LAK | KHR | sell | 0.184 |
@@ -97,15 +97,15 @@ Published **2026-10-14** by National Bank of Cambodia — 85 rates, first 60 sho
 | MYR | KHR | buy | 997 |
 | MYR | KHR | middle | 1002 |
 | MYR | KHR | sell | 1007 |
-| NGN | KHR | buy | 3.06 |
-| NGN | KHR | middle | 3.075 |
-| NGN | KHR | sell | 3.09 |
-| NZD | KHR | buy | 2281 |
-| NZD | KHR | middle | 2292.5 |
-| NZD | KHR | sell | 2304 |
-| PHP | KHR | buy | 64.82 |
-| PHP | KHR | middle | 65.145 |
-| PHP | KHR | sell | 65.47 |
+| NGN | KHR | buy | 3.05 |
+| NGN | KHR | middle | 3.065 |
+| NGN | KHR | sell | 3.08 |
+| NZD | KHR | buy | 2286 |
+| NZD | KHR | middle | 2297.5 |
+| NZD | KHR | sell | 2309 |
+| PHP | KHR | buy | 64.69 |
+| PHP | KHR | middle | 65.015 |
+| PHP | KHR | sell | 65.34 |
 
 [Full table on the National Bank of Cambodia rates page](https://allratestoday.com/central-bank-rates-api/nbc/) · Source: [Official rates published by NBC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->

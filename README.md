@@ -33,58 +33,59 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/nbc').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest National Bank of Cambodia table](https://allratestoday.com/api/open/central-bank/nbc/table.svg)](https://allratestoday.com/central-bank-rates-api/nbc/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | KHR | buy | 1107 |
 | AED | KHR | middle | 1112.5 |
 | AED | KHR | sell | 1118 |
-| AUD | KHR | buy | 2851 |
-| AUD | KHR | middle | 2865 |
-| AUD | KHR | sell | 2879 |
-| CAD | KHR | buy | 2862 |
-| CAD | KHR | middle | 2876 |
-| CAD | KHR | sell | 2890 |
-| CHF | KHR | buy | 4883 |
-| CHF | KHR | middle | 4907.5 |
-| CHF | KHR | sell | 4932 |
+| AUD | KHR | buy | 2830 |
+| AUD | KHR | middle | 2844 |
+| AUD | KHR | sell | 2858 |
+| CAD | KHR | buy | 2871 |
+| CAD | KHR | middle | 2885.5 |
+| CAD | KHR | sell | 2900 |
+| CHF | KHR | buy | 4933 |
+| CHF | KHR | middle | 4957.5 |
+| CHF | KHR | sell | 4982 |
 | CNH | KHR | buy | 608 |
 | CNH | KHR | middle | 611 |
 | CNH | KHR | sell | 614 |
 | CNY | KHR | buy | 608 |
 | CNY | KHR | middle | 611 |
 | CNY | KHR | sell | 614 |
-| DKK | KHR | buy | 609 |
-| DKK | KHR | middle | 612.5 |
-| DKK | KHR | sell | 616 |
-| EUR | KHR | buy | 4555 |
-| EUR | KHR | middle | 4578 |
-| EUR | KHR | sell | 4601 |
-| GBP | KHR | buy | 5393 |
-| GBP | KHR | middle | 5420 |
-| GBP | KHR | sell | 5447 |
+| DKK | KHR | buy | 612 |
+| DKK | KHR | middle | 615 |
+| DKK | KHR | sell | 618 |
+| EUR | KHR | buy | 4572 |
+| EUR | KHR | middle | 4594.5 |
+| EUR | KHR | sell | 4617 |
+| GBP | KHR | buy | 5416 |
+| GBP | KHR | middle | 5443 |
+| GBP | KHR | sell | 5470 |
 | HKD | KHR | buy | 518 |
 | HKD | KHR | middle | 520.5 |
 | HKD | KHR | sell | 523 |
-| IDR | KHR | buy | 0.227 |
-| IDR | KHR | middle | 0.2285 |
-| IDR | KHR | sell | 0.23 |
-| INR | KHR | buy | 42.77 |
-| INR | KHR | middle | 42.985 |
-| INR | KHR | sell | 43.2 |
-| JPY | KHR | buy | 25.68 |
-| JPY | KHR | middle | 25.81 |
-| JPY | KHR | sell | 25.94 |
+| IDR | KHR | buy | 0.226 |
+| IDR | KHR | middle | 0.227 |
+| IDR | KHR | sell | 0.228 |
+| INR | KHR | buy | 42.83 |
+| INR | KHR | middle | 43.045 |
+| INR | KHR | sell | 43.26 |
+| JPY | KHR | buy | 25.74 |
+| JPY | KHR | middle | 25.865 |
+| JPY | KHR | sell | 25.99 |
 | KRW | KHR | buy | 3.05 |
 | KRW | KHR | middle | 3.065 |
 | KRW | KHR | sell | 3.08 |
@@ -98,14 +99,16 @@ Published **2026-10-16** by National Bank of Cambodia — 85 rates, first 60 sho
 | MYR | KHR | middle | 1002 |
 | MYR | KHR | sell | 1007 |
 | NGN | KHR | buy | 3.05 |
-| NGN | KHR | middle | 3.065 |
-| NGN | KHR | sell | 3.08 |
-| NZD | KHR | buy | 2286 |
-| NZD | KHR | middle | 2297.5 |
-| NZD | KHR | sell | 2309 |
-| PHP | KHR | buy | 64.69 |
-| PHP | KHR | middle | 65.015 |
-| PHP | KHR | sell | 65.34 |
+| NGN | KHR | middle | 3.07 |
+| NGN | KHR | sell | 3.09 |
+| NZD | KHR | buy | 2305 |
+| NZD | KHR | middle | 2316.5 |
+| NZD | KHR | sell | 2328 |
+| PHP | KHR | buy | 64.59 |
+| PHP | KHR | middle | 64.915 |
+| PHP | KHR | sell | 65.24 |
+
+</details>
 
 [Full table on the National Bank of Cambodia rates page](https://allratestoday.com/central-bank-rates-api/nbc/) · Source: [Official rates published by NBC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -378,7 +381,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/nbc-cambodia-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/nbc-cambodia-exchange-rate)
 
 ## 📜 License

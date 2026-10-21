@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KHR | buy | 1108 |
-| AED | KHR | middle | 1113.5 |
-| AED | KHR | sell | 1119 |
-| AUD | KHR | buy | 2838 |
-| AUD | KHR | middle | 2852.5 |
-| AUD | KHR | sell | 2867 |
-| CAD | KHR | buy | 2888 |
-| CAD | KHR | middle | 2902 |
-| CAD | KHR | sell | 2916 |
-| CHF | KHR | buy | 4941 |
-| CHF | KHR | middle | 4965.5 |
-| CHF | KHR | sell | 4990 |
-| CNH | KHR | buy | 609 |
-| CNH | KHR | middle | 612 |
-| CNH | KHR | sell | 615 |
-| CNY | KHR | buy | 609 |
-| CNY | KHR | middle | 612 |
-| CNY | KHR | sell | 615 |
-| DKK | KHR | buy | 610 |
-| DKK | KHR | middle | 613 |
-| DKK | KHR | sell | 616 |
-| EUR | KHR | buy | 4559 |
-| EUR | KHR | middle | 4582 |
-| EUR | KHR | sell | 4605 |
-| GBP | KHR | buy | 5419 |
-| GBP | KHR | middle | 5446 |
-| GBP | KHR | sell | 5473 |
+| AED | KHR | buy | 1109 |
+| AED | KHR | middle | 1114.5 |
+| AED | KHR | sell | 1120 |
+| AUD | KHR | buy | 2849 |
+| AUD | KHR | middle | 2863 |
+| AUD | KHR | sell | 2877 |
+| CAD | KHR | buy | 2896 |
+| CAD | KHR | middle | 2910.5 |
+| CAD | KHR | sell | 2925 |
+| CHF | KHR | buy | 4935 |
+| CHF | KHR | middle | 4959.5 |
+| CHF | KHR | sell | 4984 |
+| CNH | KHR | buy | 610 |
+| CNH | KHR | middle | 613 |
+| CNH | KHR | sell | 616 |
+| CNY | KHR | buy | 610 |
+| CNY | KHR | middle | 613 |
+| CNY | KHR | sell | 616 |
+| DKK | KHR | buy | 612 |
+| DKK | KHR | middle | 615 |
+| DKK | KHR | sell | 618 |
+| EUR | KHR | buy | 4573 |
+| EUR | KHR | middle | 4596 |
+| EUR | KHR | sell | 4619 |
+| GBP | KHR | buy | 5435 |
+| GBP | KHR | middle | 5462.5 |
+| GBP | KHR | sell | 5490 |
 | HKD | KHR | buy | 519 |
 | HKD | KHR | middle | 521.5 |
 | HKD | KHR | sell | 524 |
 | IDR | KHR | buy | 0.226 |
-| IDR | KHR | middle | 0.227 |
-| IDR | KHR | sell | 0.228 |
-| INR | KHR | buy | 42.87 |
-| INR | KHR | middle | 43.085 |
-| INR | KHR | sell | 43.3 |
+| IDR | KHR | middle | 0.2275 |
+| IDR | KHR | sell | 0.229 |
+| INR | KHR | buy | 42.9 |
+| INR | KHR | middle | 43.115 |
+| INR | KHR | sell | 43.33 |
 | JPY | KHR | buy | 25.74 |
 | JPY | KHR | middle | 25.87 |
 | JPY | KHR | sell | 26 |
-| KRW | KHR | buy | 3.06 |
-| KRW | KHR | middle | 3.075 |
-| KRW | KHR | sell | 3.09 |
+| KRW | KHR | buy | 3.07 |
+| KRW | KHR | middle | 3.085 |
+| KRW | KHR | sell | 3.1 |
 | LAK | KHR | buy | 0.182 |
 | LAK | KHR | middle | 0.183 |
 | LAK | KHR | sell | 0.184 |
@@ -102,15 +102,15 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | MYR | KHR | buy | 998 |
 | MYR | KHR | middle | 1003 |
 | MYR | KHR | sell | 1008 |
-| NGN | KHR | buy | 3.05 |
-| NGN | KHR | middle | 3.065 |
-| NGN | KHR | sell | 3.08 |
-| NZD | KHR | buy | 2303 |
-| NZD | KHR | middle | 2314.5 |
-| NZD | KHR | sell | 2326 |
-| PHP | KHR | buy | 64.53 |
-| PHP | KHR | middle | 64.855 |
-| PHP | KHR | sell | 65.18 |
+| NGN | KHR | buy | 3.06 |
+| NGN | KHR | middle | 3.075 |
+| NGN | KHR | sell | 3.09 |
+| NZD | KHR | buy | 2315 |
+| NZD | KHR | middle | 2326.5 |
+| NZD | KHR | sell | 2338 |
+| PHP | KHR | buy | 64.57 |
+| PHP | KHR | middle | 64.895 |
+| PHP | KHR | sell | 65.22 |
 
 </details>
 

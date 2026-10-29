@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -275,6 +275,7 @@ The National Bank of Cambodia sets the official riel/dollar exchange rate and pu
 
 - Publisher's own page: [Official exchange rate](https://www.nbc.gov.kh/english/economic_research/exchange_rate.php) · [www.nbc.gov.kh/english](https://www.nbc.gov.kh/english/)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of Cambodia rates page](https://allratestoday.com/central-bank-rates-api/nbc/)
+- In the API: usually by **17:15 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers

@@ -24,93 +24,78 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest National Bank of Cambodia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/nbc?source=USD&target=KHR"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/nbc').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest National Bank of Cambodia table](https://allratestoday.com/api/open/central-bank/nbc/table.svg)](https://allratestoday.com/central-bank-rates-api/nbc/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by National Bank of Cambodia — 85 rates, first 60 shown. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | KHR | buy | 1112 |
-| AED | KHR | middle | 1117.5 |
-| AED | KHR | sell | 1123 |
-| AUD | KHR | buy | 2865 |
-| AUD | KHR | middle | 2879.5 |
-| AUD | KHR | sell | 2894 |
-| CAD | KHR | buy | 2912 |
-| CAD | KHR | middle | 2926.5 |
-| CAD | KHR | sell | 2941 |
-| CHF | KHR | buy | 4932 |
-| CHF | KHR | middle | 4957 |
-| CHF | KHR | sell | 4982 |
+| AED | KHR | buy | 1111 |
+| AED | KHR | middle | 1116.5 |
+| AED | KHR | sell | 1122 |
+| AUD | KHR | buy | 2869 |
+| AUD | KHR | middle | 2883.5 |
+| AUD | KHR | sell | 2898 |
+| CAD | KHR | buy | 2901 |
+| CAD | KHR | middle | 2915.5 |
+| CAD | KHR | sell | 2930 |
+| CHF | KHR | buy | 4917 |
+| CHF | KHR | middle | 4941.5 |
+| CHF | KHR | sell | 4966 |
 | CNH | KHR | buy | 612 |
 | CNH | KHR | middle | 615 |
 | CNH | KHR | sell | 618 |
 | CNY | KHR | buy | 612 |
 | CNY | KHR | middle | 615 |
 | CNY | KHR | sell | 618 |
-| DKK | KHR | buy | 610 |
-| DKK | KHR | middle | 613 |
-| DKK | KHR | sell | 616 |
-| EUR | KHR | buy | 4556 |
-| EUR | KHR | middle | 4578.5 |
-| EUR | KHR | sell | 4601 |
-| GBP | KHR | buy | 5440 |
-| GBP | KHR | middle | 5467 |
-| GBP | KHR | sell | 5494 |
-| HKD | KHR | buy | 521 |
-| HKD | KHR | middle | 523.5 |
-| HKD | KHR | sell | 526 |
+| DKK | KHR | buy | 607 |
+| DKK | KHR | middle | 610 |
+| DKK | KHR | sell | 613 |
+| EUR | KHR | buy | 4537 |
+| EUR | KHR | middle | 4560 |
+| EUR | KHR | sell | 4583 |
+| GBP | KHR | buy | 5423 |
+| GBP | KHR | middle | 5450 |
+| GBP | KHR | sell | 5477 |
+| HKD | KHR | buy | 520 |
+| HKD | KHR | middle | 522.5 |
+| HKD | KHR | sell | 525 |
 | IDR | KHR | buy | 0.225 |
 | IDR | KHR | middle | 0.226 |
 | IDR | KHR | sell | 0.227 |
-| INR | KHR | buy | 42.91 |
-| INR | KHR | middle | 43.12 |
-| INR | KHR | sell | 43.33 |
-| JPY | KHR | buy | 25.87 |
-| JPY | KHR | middle | 25.995 |
+| INR | KHR | buy | 42.86 |
+| INR | KHR | middle | 43.075 |
+| INR | KHR | sell | 43.29 |
+| JPY | KHR | buy | 25.86 |
+| JPY | KHR | middle | 25.99 |
 | JPY | KHR | sell | 26.12 |
-| KRW | KHR | buy | 3.08 |
-| KRW | KHR | middle | 3.095 |
-| KRW | KHR | sell | 3.11 |
-| LAK | KHR | buy | 0.183 |
-| LAK | KHR | middle | 0.184 |
-| LAK | KHR | sell | 0.185 |
+| KRW | KHR | buy | 3.05 |
+| KRW | KHR | middle | 3.065 |
+| KRW | KHR | sell | 3.08 |
+| LAK | KHR | buy | 0.182 |
+| LAK | KHR | middle | 0.183 |
+| LAK | KHR | sell | 0.184 |
 | MMK | KHR | buy | 1.95 |
 | MMK | KHR | middle | 1.96 |
 | MMK | KHR | sell | 1.97 |
-| MYR | KHR | buy | 999 |
-| MYR | KHR | middle | 1004 |
-| MYR | KHR | sell | 1009 |
-| NGN | KHR | buy | 3.05 |
-| NGN | KHR | middle | 3.065 |
-| NGN | KHR | sell | 3.08 |
-| NZD | KHR | buy | 2323 |
-| NZD | KHR | middle | 2334.5 |
-| NZD | KHR | sell | 2346 |
-| PHP | KHR | buy | 63.65 |
-| PHP | KHR | middle | 63.965 |
-| PHP | KHR | sell | 64.28 |
+| MYR | KHR | buy | 1001 |
+| MYR | KHR | middle | 1006 |
+| MYR | KHR | sell | 1011 |
+| NGN | KHR | buy | 3.02 |
+| NGN | KHR | middle | 3.035 |
+| NGN | KHR | sell | 3.05 |
+| NZD | KHR | buy | 2288 |
+| NZD | KHR | middle | 2299.5 |
+| NZD | KHR | sell | 2311 |
+| PHP | KHR | buy | 63.77 |
+| PHP | KHR | middle | 64.085 |
+| PHP | KHR | sell | 64.4 |
 
 </details>
 

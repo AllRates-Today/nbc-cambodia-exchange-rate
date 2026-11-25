@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-20 by National Bank of Cambodia — 88 rates, first 60 shown. Updated 2026-11-23.</summary>
+<summary>Table as text: published 2026-11-20 by National Bank of Cambodia (the API currently flags this table as stale) — 88 rates, first 60 shown. Updated 2026-11-25.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
